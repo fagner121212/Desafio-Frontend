@@ -1,0 +1,96 @@
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 37, 68, 0.2);
+    backdrop-filter: blur(4px);
+    font-family: 'Roboto', sans-serif;
+  }
+  .card-modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 980px;
+    height: 346px;
+    border-radius: 10px;
+    float: right;
+  }
+  
+  .card-modal img {
+    height: 266px;
+    width: 266px;
+    border-radius: 10px;
+    margin: 40px 20px 40px 40px;
+    float: left;
+  }
+  .profile-name {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 21px;
+    color: #2f2544;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-right: 41.54px;
+    width: 610.93px;
+    float: right;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 40px 40px 20px;
+  }
+  .card-modal hr {
+    width: 610.93px;
+    border: 1px solid #e1dfe0;
+  }
+  .profile-info-title {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #2f2544;
+    margin-bottom: 4px;
+  }
+  
+  .profile-info,
+  a {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #7b6490;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  .button-fechar {
+    width: 87px;
+    height: 36px;
+    border: solid 1px #8c56c2;
+    border-radius: 4px;
+    color: #8c56c2;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .button-fechar:hover {
+    color: #ad86d3;
+    border-color: #ad86d3;
+    cursor: pointer;
+  }
+  

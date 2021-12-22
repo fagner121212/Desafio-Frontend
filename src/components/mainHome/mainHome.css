@@ -1,0 +1,16 @@
+.main {
+    position: absolute;
+    background-color: #e5e5e5;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-logo {
+    margin: auto;
+    height: 410px;
+    width: 730px;
+    padding-top: calc(50vh - 205px);
+  }
+  
